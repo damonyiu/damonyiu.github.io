@@ -58,7 +58,7 @@ nav a:hover {
 
 #name {
     position: absolute;
-    top: 200;
+    top: 200px;
     font-weight: bolder;
     font-size: 90;
     color: rgb(0, 0, 0);
