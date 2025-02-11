@@ -4,34 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-index.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <nav>
         <ul>
             <li>
-                <a href="#index.html">
-                    <img id="logo" src="2.png" alt="Damon Yiu Logo" />
+                <a href="index.html">
+                    <img id="logo" src="img/2.png" alt="Damon Yiu Logo" />
                 </a>
             </li>
             <li>
-                <a href="#index.html">
+                <a href="index.html">
                     <span id="name-nav">
                         Damon Yiu
                     </span>
                 </a>
             </li>
-            <li><a href="#interests">Interests</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#work-experience">Work Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#home">Home</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="work-experience.html">Work Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
         </ul>
     </nav>
+
+    <img id="profile" src="img/profile-pic.png" alt="profile picture">
+
+    <span class="dm-sans-unique" id="name">
+        DAMON YIU
+    </span>
+
+
+    <div id="pillar">
+    </div>
+
+    <div id="description">
+        <p class="dm-sans-unique">Hi! I'm Damon Yiu, a Computer Science student at Simon Fraser University. I'm
+            passionate about coding and
+            technology, with experience in C++, HTML, CSS, JavaScript, and React, and currently learning Java to further
+            enhance my programming skills. I love working on projects that combine functionality with a great user
+            experience.
+            I'm also the Director of External Relations for the Software Systems Student Society (SSSS), where I build
+            connections with industry professionals and create opportunities for fellow students.
+            Outside of tech, I enjoy exploring politics, playing table tennis, and traveling to new places to experience
+            different cultures. I'm always excited to learn, create, and contribute—whether in the classroom, through my
+            extracurriculars, or on a personal adventure!</p>
+    </div>
+
+    <div id="buttons">
+        <button id="button-contact" class="button" onclick="location.href='contact.html'"> Contact Me</button>
+        <button id="button-projects" class="button" onclick="location.href='projects.html'"> Projects</button>
+        <button id="button-resume" class="button" onclick="location.href='resume.html'">Resume</button>
+    </div>
 </body>
 
 </html>
