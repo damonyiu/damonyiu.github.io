@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
 </head>
 
 <body>
@@ -36,34 +38,47 @@
         </ul>
     </nav>
 
-    <img id="profile" src="img/profile-pic.png" alt="profile picture">
+    <div id="content">
+        <img id="profile" src="img/profile-pic.png" alt="profile picture">
 
-    <span class="dm-sans-unique" id="name">
-        DAMON YIU
-    </span>
+        <span class="dm-sans-unique" id="name">
+            DAMON YIU
+        </span>
 
 
-    <div id="pillar">
+        <div id="pillar">
+        </div>
+
+        <div id="description">
+            <p class="dm-sans-unique">Hi! I'm Damon Yiu, a Computer Science student at Simon Fraser University. I'm
+                passionate about coding and
+                technology, with experience in C++, HTML, CSS, JavaScript, and React, and currently learning Java to
+                further
+                enhance my programming skills. I love working on projects that combine functionality with a great user
+                experience.
+                I'm also the Director of External Relations for the Software Systems Student Society (SSSS), where I
+                build
+                connections with industry professionals and create opportunities for fellow students.
+                Outside of tech, I enjoy exploring politics, playing table tennis, and traveling to new places to
+                experience
+                different cultures. I'm always excited to learn, create, and contribute—whether in the classroom,
+                through my
+                extracurriculars, or on a personal adventure!</p>
+        </div>
+
+        <div id="buttons">
+            <button id="button-contact" class="button" onclick="location.href='contact.html'"> Contact Me
+                <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </button>
+            <button id="button-projects" class="button" onclick="location.href='projects.html'"> Projects
+                <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </button>
+            <button id="button-resume" class="button" onclick="location.href='resume.html'">Resume
+                <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </button>
+        </div>
     </div>
 
-    <div id="description">
-        <p class="dm-sans-unique">Hi! I'm Damon Yiu, a Computer Science student at Simon Fraser University. I'm
-            passionate about coding and
-            technology, with experience in C++, HTML, CSS, JavaScript, and React, and currently learning Java to further
-            enhance my programming skills. I love working on projects that combine functionality with a great user
-            experience.
-            I'm also the Director of External Relations for the Software Systems Student Society (SSSS), where I build
-            connections with industry professionals and create opportunities for fellow students.
-            Outside of tech, I enjoy exploring politics, playing table tennis, and traveling to new places to experience
-            different cultures. I'm always excited to learn, create, and contribute—whether in the classroom, through my
-            extracurriculars, or on a personal adventure!</p>
-    </div>
-
-    <div id="buttons">
-        <button id="button-contact" class="button" onclick="location.href='contact.html'"> Contact Me</button>
-        <button id="button-projects" class="button" onclick="location.href='projects.html'"> Projects</button>
-        <button id="button-resume" class="button" onclick="location.href='resume.html'">Resume</button>
-    </div>
 </body>
 
 </html>
