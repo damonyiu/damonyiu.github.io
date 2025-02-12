@@ -89,21 +89,22 @@ nav a:hover {
 
 #pillar {
     background-color: antiquewhite;
-    height: 500;
-    width: 350;
-    position: absolute;
-    right: 100;
-    top: 200;
+    height: 700px;
+    width: 350px;
+    position: fixed;
+    bottom: 0;
+    right: 200;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    z-index: 0;
+    z-index: -1;
 }
 
 #profile {
     width: 445.5px;
     height: 670.5px;
-    position: absolute;
-    right: 40;
+    position: relative;
+    right: ;
+    left: 0;
     bottom: 0;
     z-index: 1;
 }
@@ -135,4 +136,14 @@ nav a:hover {
     height: 30;
     color: black;
     height: 3;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
