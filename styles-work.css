@@ -1,0 +1,118 @@
+body,
+html {
+    margin-top: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    padding: 10px;
+    z-index: 1000;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20;
+}
+
+li {
+    margin: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav a:hover {
+    color: orange;
+
+}
+
+#name-nav {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    font-size: 40px;
+}
+
+#logo {
+    position: absolute;
+    left: 50;
+    top: 30px;
+    height: auto;
+    width: 50px;
+}
+
+#contact {
+    font-weight: bolder;
+    font-size: 90;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 75px;
+}
+
+.dm-sans-unique {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#main-content {
+    padding-top: 150px;
+}
+
+#container {
+    display: flex;
+}
+
+#job-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#work-experience {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+#work-experience h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#jobs-container {
+    margin-top: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.job {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 20px);
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
