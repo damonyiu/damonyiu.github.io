@@ -1,0 +1,154 @@
+body,
+html {
+    margin-top: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    padding: 10px;
+    z-index: 1000;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20;
+}
+
+li {
+    margin: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav a:hover {
+    color: orange;
+
+}
+
+nav a.current-page {
+    color: orange;
+    font-weight: bold;
+}
+
+#name-nav {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    font-size: 40px;
+}
+
+#logo {
+    position: absolute;
+    left: 50;
+    top: 30px;
+    height: auto;
+    width: 50px;
+}
+
+#contact {
+    font-weight: bolder;
+    font-size: 90;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 75px;
+}
+
+.dm-sans-unique {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.moirai-one-regular {
+    font-family: "Moirai One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+#main-content {
+    padding-top: 150px;
+}
+
+#travel {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(137, 147, 244);
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+#travel-description {
+    margin-left: 75;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#travel h1 {
+    font-size: 150;
+}
+
+#description {
+    width: 600;
+}
+
+#plane {
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: auto;
+    align-self: flex-start;
+}
+
+#places {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.place {
+    display: grid;
+}
+
+.place h2 {
+    font-size: 100;
+}
+
+footer {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+footer a {
+    color: orange;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
