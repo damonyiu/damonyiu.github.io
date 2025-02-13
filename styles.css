@@ -1,28 +1,24 @@
-body,
-html {
-    margin-top: 0;
-    padding: 0;
-}
-
 body {
-    margin-left: 75px;
-    margin-right: 30px;
-    background-color: rgb(233, 208, 176);
+    margin-top: 0;
+    background-color: rgb(0, 0, 0);
+    display: grid;
 }
 
 nav {
     position: fixed;
     left: 0;
+    top: 0;
     width: 100%;
     background-color: rgb(49, 49, 49);
     padding: 10px;
+    z-index: 100;
 }
 
 ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin-right: 20;
+    margin-right: 20px;
 }
 
 li {
@@ -46,25 +42,15 @@ nav a:hover {
     top: 25px;
     left: 150px;
     font-size: 40px;
+    white-space: nowrap;
 }
 
 #logo {
     position: absolute;
-    left: 50;
+    left: 50px;
     top: 30px;
     height: auto;
     width: 50px;
-}
-
-#content {
-    padding-top: 150px;
-}
-
-#name {
-
-    font-weight: bolder;
-    font-size: 90;
-    color: rgb(0, 0, 0);
 }
 
 .dm-sans-unique {
@@ -73,61 +59,81 @@ nav a:hover {
     font-style: normal;
 }
 
-#description {
-    background-color: antiquewhite;
-    height: auto;
-    width: 750;
-    border: antiquewhite;
-    border-radius: 15px;
-}
-
-#description p {
-    padding: 20px;
-    font-weight: 200;
-    color: black;
-}
-
-#pillar {
-    background-color: antiquewhite;
-    height: 700px;
-    width: 350px;
-    position: fixed;
-    bottom: 0;
-    right: 200;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    z-index: -1;
-}
-
 #profile {
+    position: relative;
+    margin-top: 200px;
+}
+
+#profile h1 {
+    color: black;
+    position: absolute;
+    font-size: 200;
+    right: 100;
+    top: 0;
+    -webkit-text-stroke: 0.3vw whitesmoke
+}
+
+#profile h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#profile-picture {
+    position: relative;
+    left: 100;
     width: 445.5px;
     height: 670.5px;
-    position: relative;
-    right: ;
-    left: 0;
-    bottom: 0;
+    margin-right: 20px;
     z-index: 1;
 }
 
+
 #buttons {
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    right: 110;
+    bottom: 200;
 }
 
 .button {
     font-family: "DM Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
-
     position: relative;
-    margin: 10px 0;
-    padding: 10px 20px;
+    margin: 10px;
+    padding: 10px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 20px;
-    width: 600px;
-    text-align: left;
+    width: 300px;
     background-color: whitesmoke;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+#bio {
+    position: relative;
+    background-color: rgb(41, 41, 41);
+    border: 2px solid rgb(59, 59, 59);
+    height: auto;
+    padding: 20px;
+    padding-left: 60;
+    padding-right: 60;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 20;
 }
 
 .material-symbols-outlined {
@@ -135,15 +141,4 @@ nav a:hover {
     right: 0;
     height: 30;
     color: black;
-    height: 3;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
 }
