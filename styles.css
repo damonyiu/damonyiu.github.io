@@ -37,6 +37,11 @@ nav a:hover {
 
 }
 
+nav a.current-page {
+    color:orange;
+    font-weight: bold;
+}
+
 #name-nav {
     position: absolute;
     top: 25px;
