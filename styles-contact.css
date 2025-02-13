@@ -78,19 +78,22 @@ nav a.current-page {
 }
 
 #buttons {
-    position: relative;
-    margin-top: 20;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 20px; /* Space out evenly */
+    margin-top: 20px;
+    justify-items: center; 
+    align-items: center; 
 }
 
 .button {
-    display: block;
-    margin-bottom: 20px;
     padding: 20px;
     font-size: 15px;
     cursor: pointer;
     border-radius: 20px;
-    width: 600px;
-    text-align: left;
+    width: 100%; 
+    text-align: center; 
     background-color: whitesmoke;
     border: 2px solid #000000;
 }
