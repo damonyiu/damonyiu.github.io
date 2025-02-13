@@ -79,7 +79,7 @@ nav a.current-page {
 
 #buttons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /
+    grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(2, 1fr); 
     gap: 20px; /* Space out evenly */
     margin-top: 20px;
