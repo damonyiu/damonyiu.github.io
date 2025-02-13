@@ -37,11 +37,6 @@ nav a:hover {
 
 }
 
-nav a.current-page {
-    color:orange;
-    font-weight: bold;
-}
-
 #name-nav {
     position: absolute;
     top: 25px;
@@ -94,7 +89,7 @@ nav a.current-page {
 
 #profile-picture {
     position: relative;
-    left: 100;
+    left: 10;
     width: 445.5px;
     height: 670.5px;
     margin-right: 20px;
