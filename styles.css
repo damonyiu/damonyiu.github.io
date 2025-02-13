@@ -59,6 +59,11 @@ nav a:hover {
     font-style: normal;
 }
 
+nav a.current-page {
+    color: orange;
+    font-weight: bold;
+}
+
 #profile {
     position: relative;
     margin-top: 200px;
