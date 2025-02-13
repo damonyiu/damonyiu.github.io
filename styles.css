@@ -147,3 +147,23 @@ nav a.current-page {
     height: 30;
     color: black;
 }
+
+footer {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+footer a {
+    color: orange;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
