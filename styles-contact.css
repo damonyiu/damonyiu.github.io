@@ -138,6 +138,8 @@ nav a.current-page {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     background-color: rgb(49, 49, 49);
     color: white;
     text-align: center;
