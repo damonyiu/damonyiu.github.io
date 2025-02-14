@@ -78,8 +78,8 @@ nav a.current-page {
     font-family: "Moirai One", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 
 #main-content {
     padding-top: 150px;
@@ -128,7 +128,7 @@ nav a.current-page {
 
 .place {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
     margin-bottom: 20px;
@@ -154,6 +154,69 @@ nav a.current-page {
     text-align: center;
 }
 
+#politics {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(150, 0, 0);
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+#politics-description {
+    margin-left: 75;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#politics h2 {
+    right: 0;
+    color: white;
+    font-size: 150;
+}
+
+#politics p {
+    margin-top: 90;
+    margin-left: 300;
+    width: 450;
+    text-align: center;
+    height: 100%;
+    font-size: 20;
+}
+
+#politics-items {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Align items vertically */
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px 75px;
+}
+
+.item img {
+    order: 1;
+    width: 650px;
+    height: auto;
+    margin-right: 200;
+}
+
+.item p {
+    order: 2;
+    color: white;
+    width: 450px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30;
+}
+
+/* Footer */
 footer {
     background-color: rgb(49, 49, 49);
     color: white;
